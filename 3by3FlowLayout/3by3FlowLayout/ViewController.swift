@@ -15,9 +15,20 @@ class ViewController: UICollectionViewController {
     let inset: CGFloat = 8.0
     let spacing: CGFloat = 8.0
     let lineSpacing: CGFloat = 8.0
+    var isRandom = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(refreshControlendRefreshing), for: .valueChanged)
+        collectionView.refreshControl = refreshControl
+    }
+    
+    @objc func refreshControlendRefreshing() {
+        isRandom = !isRandom
+        collectionView.reloadData()
+        collectionView.refreshControl?.endRefreshing()
     }
 }
 
@@ -42,8 +53,14 @@ extension ViewController {
 extension ViewController: UICollectionViewDelegateFlowLayout {
     // cell size
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = (collectionView.frame.width - (inset * 2) - (spacing * (columns - 1))) / columns
-        return CGSize(width: width, height: width)
+        let width = Int((collectionView.frame.width - (inset * 2) - (spacing * (columns - 1))) / columns)
+        var randomSize: Int
+        if isRandom {
+            randomSize = 64 * Int(arc4random_uniform(3) + 1)
+        } else {
+            randomSize = width
+        }
+        return CGSize(width: randomSize, height: randomSize)
     }
     
     // section안에 margin 설정
