@@ -13,6 +13,7 @@
 		574181422396542C007CBFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574181402396542C007CBFBD /* Main.storyboard */; };
 		574181442396542D007CBFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574181432396542D007CBFBD /* Assets.xcassets */; };
 		574181472396542D007CBFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574181452396542D007CBFBD /* LaunchScreen.storyboard */; };
+		57418150239655D0007CBFBD /* Pictures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5741814F239655D0007CBFBD /* Pictures.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		574181432396542D007CBFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574181462396542D007CBFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574181482396542D007CBFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5741814F239655D0007CBFBD /* Pictures.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pictures.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,20 @@
 				5741813C2396542C007CBFBD /* SceneDelegate.swift */,
 				5741813E2396542C007CBFBD /* ViewController.swift */,
 				574181402396542C007CBFBD /* Main.storyboard */,
+				5741814E239655BF007CBFBD /* Data */,
 				574181432396542D007CBFBD /* Assets.xcassets */,
 				574181452396542D007CBFBD /* LaunchScreen.storyboard */,
 				574181482396542D007CBFBD /* Info.plist */,
 			);
 			path = CarouselLayout;
+			sourceTree = "<group>";
+		};
+		5741814E239655BF007CBFBD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5741814F239655D0007CBFBD /* Pictures.plist */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				574181472396542D007CBFBD /* LaunchScreen.storyboard in Resources */,
 				574181442396542D007CBFBD /* Assets.xcassets in Resources */,
 				574181422396542C007CBFBD /* Main.storyboard in Resources */,
+				57418150239655D0007CBFBD /* Pictures.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
