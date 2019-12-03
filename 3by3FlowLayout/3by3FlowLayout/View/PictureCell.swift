@@ -9,5 +9,15 @@
 import UIKit
 
 class PictureCell: UICollectionViewCell {
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var dateLabel: UILabel!
     
+    var pictureData: Picture? {
+        didSet {
+            if let data = pictureData {
+                dateLabel.text = data.date
+                imageView.image = UIImage(named: data.image)
+            }
+        }
+    }
 }
