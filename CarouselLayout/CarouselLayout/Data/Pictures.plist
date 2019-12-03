@@ -3,180 +3,240 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>Description</key>
+		<string>go where?</string>
 		<key>Image</key>
 		<string>1</string>
 		<key>Date</key>
 		<string>19.06.29</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>In jeju island</string>
 		<key>Image</key>
 		<string>2</string>
 		<key>Date</key>
 		<string>19.12.03</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>In jeju island</string>
 		<key>Image</key>
 		<string>3</string>
 		<key>Date</key>
 		<string>19.12.03</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>happy hour</string>
 		<key>Image</key>
 		<string>4</string>
 		<key>Date</key>
 		<string>19.11.19</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>In jeju island</string>
 		<key>Image</key>
 		<string>5</string>
 		<key>Date</key>
 		<string>19.11.19</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>In Itaewon !</string>
 		<key>Image</key>
 		<string>6</string>
 		<key>Date</key>
 		<string>19.11.19</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>Rooftop view</string>
 		<key>Image</key>
 		<string>7</string>
 		<key>Date</key>
 		<string>19.08.12</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>Sunny day</string>
 		<key>Image</key>
 		<string>8</string>
 		<key>Date</key>
 		<string>19.08.12</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>PUNCH OUT !</string>
 		<key>Image</key>
 		<string>9</string>
 		<key>Date</key>
 		<string>19.11.04</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>In Hannamdong</string>
 		<key>Image</key>
 		<string>10</string>
 		<key>Date</key>
 		<string>19.10.28</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>cloudy</string>
 		<key>Image</key>
 		<string>11</string>
 		<key>Date</key>
 		<string>19.11.21</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>cloudy cloudy</string>
 		<key>Image</key>
 		<string>12</string>
 		<key>Date</key>
 		<string>19.11.21</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>cloudy cloudy cloudy</string>
 		<key>Image</key>
 		<string>13</string>
 		<key>Date</key>
 		<string>19.11.21</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>jeju jeju</string>
 		<key>Image</key>
 		<string>14</string>
 		<key>Date</key>
 		<string>19.08.10</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>work out</string>
 		<key>Image</key>
 		<string>15</string>
 		<key>Date</key>
 		<string>18.03.31</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>In buamdong</string>
 		<key>Image</key>
 		<string>16</string>
 		<key>Date</key>
 		<string>18.06.23</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>is it fall ?</string>
 		<key>Image</key>
 		<string>17</string>
 		<key>Date</key>
 		<string>18.04.06</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>where am i going </string>
 		<key>Image</key>
 		<string>18</string>
 		<key>Date</key>
 		<string>18.04.06</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>object</string>
 		<key>Image</key>
 		<string>19</string>
 		<key>Date</key>
 		<string>18.04.06</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>euljiro 3ga</string>
 		<key>Image</key>
 		<string>20</string>
 		<key>Date</key>
 		<string>18.12.15</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>cold day i remember</string>
 		<key>Image</key>
 		<string>21</string>
 		<key>Date</key>
 		<string>19.05.04</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>s p r i n g ~</string>
 		<key>Image</key>
 		<string>22</string>
 		<key>Date</key>
 		<string>19.04.07</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>sunny happy</string>
 		<key>Image</key>
 		<string>23</string>
 		<key>Date</key>
 		<string>19.09.14</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>bunkasha</string>
 		<key>Image</key>
 		<string>24</string>
 		<key>Date</key>
 		<string>18.03.31</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>dark dark dark</string>
 		<key>Image</key>
 		<string>25</string>
 		<key>Date</key>
 		<string>18.04.12</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>ate some brownie in here</string>
 		<key>Image</key>
 		<string>26</string>
 		<key>Date</key>
 		<string>19.03.18</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>sea</string>
 		<key>Image</key>
 		<string>27</string>
 		<key>Date</key>
 		<string>18.05.07</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>beautiful</string>
 		<key>Image</key>
 		<string>28</string>
 		<key>Date</key>
 		<string>18.11.19</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>looks like a bird</string>
 		<key>Image</key>
 		<string>29</string>
 		<key>Date</key>
 		<string>19.06.19</string>
 	</dict>
 	<dict>
+		<key>Description</key>
+		<string>glittering shining</string>
 		<key>Image</key>
 		<string>30</string>
 		<key>Date</key>
