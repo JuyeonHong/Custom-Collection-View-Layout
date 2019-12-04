@@ -14,7 +14,7 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GI6-6r-T3Q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.89498259016951098" green="0.9195748730964467" blue="0.89709204199049009" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.86989969628628294" green="0.89470970812182737" blue="0.87610219924516919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="StY-NO-qIh">
                             <size key="itemSize" width="200" height="300"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -61,7 +61,7 @@
                                         <constraint firstItem="Tyc-2w-bSV" firstAttribute="leading" secondItem="31h-yx-edq" secondAttribute="leading" constant="12" id="u0z-Yt-Xzo"/>
                                     </constraints>
                                 </collectionViewCellContentView>
-                                <color key="backgroundColor" red="0.89133202184179539" green="0.9195748730964467" blue="0.83748446221063411" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.89053598262085254" green="0.9195748730964467" blue="0.89250845048698491" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="customSize" width="200" height="300"/>
                                 <connections>
                                     <outlet property="dateLabel" destination="RwR-CY-BWp" id="D0g-og-lCQ"/>

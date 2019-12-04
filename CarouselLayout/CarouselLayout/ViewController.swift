@@ -14,6 +14,11 @@ class ViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            layout.estimatedItemSize = CGSize(width: 200, height: 300)
+            layout.minimumLineSpacing = 8.0
+        }
     }
 }
 
