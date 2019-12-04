@@ -22,4 +22,19 @@ class PictureCell: UICollectionViewCell {
             }
         }
     }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        self.layer.cornerRadius = 8
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor(red: 85 / 255.0, green: 85 / 255.0, blue: 85 / 255.0, alpha: 1.0).cgColor
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        imageView.image = nil
+        dateLabel.text = ""
+        descriptionLabel.text = ""
+    }
 }
