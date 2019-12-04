@@ -15,9 +15,10 @@ class ViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
-            layout.estimatedItemSize = CGSize(width: 200, height: 300)
-            layout.minimumLineSpacing = 8.0
+        if let layout = collectionView.collectionViewLayout as? PictureFlowLayout {
+            layout.estimatedItemSize = CGSize(width: 200.0 * layout.standardItemScale,
+                                              height: 300.0 * layout.standardItemScale)
+            layout.minimumInteritemSpacing = 200.0
         }
     }
 }

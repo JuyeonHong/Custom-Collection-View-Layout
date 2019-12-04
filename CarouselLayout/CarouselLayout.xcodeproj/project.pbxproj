@@ -16,6 +16,7 @@
 		57418150239655D0007CBFBD /* Pictures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5741814F239655D0007CBFBD /* Pictures.plist */; };
 		5741815323965800007CBFBD /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741815223965800007CBFBD /* PictureCell.swift */; };
 		5741815523973E57007CBFBD /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741815423973E57007CBFBD /* Picture.swift */; };
+		574181582397459C007CBFBD /* PictureFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574181572397459C007CBFBD /* PictureFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5741814F239655D0007CBFBD /* Pictures.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pictures.plist; sourceTree = "<group>"; };
 		5741815223965800007CBFBD /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
 		5741815423973E57007CBFBD /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		574181572397459C007CBFBD /* PictureFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				5741813A2396542C007CBFBD /* AppDelegate.swift */,
 				5741813C2396542C007CBFBD /* SceneDelegate.swift */,
 				5741813E2396542C007CBFBD /* ViewController.swift */,
+				5741815623974581007CBFBD /* Layout */,
 				57418151239657EA007CBFBD /* View */,
 				5741814E239655BF007CBFBD /* Data */,
 				574181402396542C007CBFBD /* Main.storyboard */,
@@ -90,6 +93,14 @@
 				5741815223965800007CBFBD /* PictureCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5741815623974581007CBFBD /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				574181572397459C007CBFBD /* PictureFlowLayout.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574181582397459C007CBFBD /* PictureFlowLayout.swift in Sources */,
 				5741815323965800007CBFBD /* PictureCell.swift in Sources */,
 				5741815523973E57007CBFBD /* Picture.swift in Sources */,
 				5741813F2396542C007CBFBD /* ViewController.swift in Sources */,
