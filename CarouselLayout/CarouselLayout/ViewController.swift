@@ -16,9 +16,8 @@ class ViewController: UICollectionViewController {
         super.viewDidLoad()
         
         if let layout = collectionView.collectionViewLayout as? PictureFlowLayout {
-            layout.estimatedItemSize = CGSize(width: 200.0 * layout.standardItemScale,
-                                              height: 300.0 * layout.standardItemScale)
-            layout.minimumInteritemSpacing = 200.0
+            layout.estimatedItemSize = CGSize(width: layout.itemSize.width * layout.standardItemScale,
+                                              height: layout.itemSize.height * layout.standardItemScale)
         }
     }
 }
