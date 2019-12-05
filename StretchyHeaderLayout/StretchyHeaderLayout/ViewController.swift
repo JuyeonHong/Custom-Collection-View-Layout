@@ -8,13 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UICollectionViewController {
 
+    let pictures = Picture.loadPictures()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
+extension ViewController {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return pictures.count
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PictureCell", for: indexPath) as! PictureCell
+        cell.picture = pictures[indexPath.item]
+        return cell
+    }
+}

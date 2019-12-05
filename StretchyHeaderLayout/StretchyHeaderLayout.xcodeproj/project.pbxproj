@@ -13,6 +13,10 @@
 		5741816D2398E1CE007CBFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5741816B2398E1CE007CBFBD /* Main.storyboard */; };
 		5741816F2398E1CF007CBFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5741816E2398E1CF007CBFBD /* Assets.xcassets */; };
 		574181722398E1CF007CBFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574181702398E1CF007CBFBD /* LaunchScreen.storyboard */; };
+		5741817E2398F171007CBFBD /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741817D2398F171007CBFBD /* PictureCell.swift */; };
+		574181802398F1B8007CBFBD /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741817F2398F1B8007CBFBD /* Picture.swift */; };
+		574181822398F403007CBFBD /* Pictures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574181812398F403007CBFBD /* Pictures.plist */; };
+		574181842398F434007CBFBD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574181832398F434007CBFBD /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5741816E2398E1CF007CBFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574181712398E1CF007CBFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574181732398E1CF007CBFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5741817D2398F171007CBFBD /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		5741817F2398F1B8007CBFBD /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		574181812398F403007CBFBD /* Pictures.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pictures.plist; sourceTree = "<group>"; };
+		574181832398F434007CBFBD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,31 @@
 				574181672398E1CE007CBFBD /* SceneDelegate.swift */,
 				574181692398E1CE007CBFBD /* ViewController.swift */,
 				5741816B2398E1CE007CBFBD /* Main.storyboard */,
+				5741817C2398F15D007CBFBD /* View */,
+				574181792398F128007CBFBD /* Data */,
 				5741816E2398E1CF007CBFBD /* Assets.xcassets */,
 				574181702398E1CF007CBFBD /* LaunchScreen.storyboard */,
 				574181732398E1CF007CBFBD /* Info.plist */,
 			);
 			path = StretchyHeaderLayout;
+			sourceTree = "<group>";
+		};
+		574181792398F128007CBFBD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5741817F2398F1B8007CBFBD /* Picture.swift */,
+				574181812398F403007CBFBD /* Pictures.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5741817C2398F15D007CBFBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5741817D2398F171007CBFBD /* PictureCell.swift */,
+				574181832398F434007CBFBD /* HeaderView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +156,7 @@
 				574181722398E1CF007CBFBD /* LaunchScreen.storyboard in Resources */,
 				5741816F2398E1CF007CBFBD /* Assets.xcassets in Resources */,
 				5741816D2398E1CE007CBFBD /* Main.storyboard in Resources */,
+				574181822398F403007CBFBD /* Pictures.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5741817E2398F171007CBFBD /* PictureCell.swift in Sources */,
+				574181842398F434007CBFBD /* HeaderView.swift in Sources */,
+				574181802398F1B8007CBFBD /* Picture.swift in Sources */,
 				5741816A2398E1CE007CBFBD /* ViewController.swift in Sources */,
 				574181662398E1CE007CBFBD /* AppDelegate.swift in Sources */,
 				574181682398E1CE007CBFBD /* SceneDelegate.swift in Sources */,
