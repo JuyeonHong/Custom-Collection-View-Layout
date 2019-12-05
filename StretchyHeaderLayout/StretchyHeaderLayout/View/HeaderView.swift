@@ -9,5 +9,6 @@
 import UIKit
 
 class HeaderView: UICollectionReusableView {
-        
+    @IBOutlet weak var backgroundImgView: UIImageView!
+    
 }
