@@ -14,6 +14,11 @@ class ViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let layout = collectionView.collectionViewLayout as? StretchyHeaderLayout {
+            layout.itemSize = CGSize(width: collectionView.bounds.width - 4.0, height: 62)
+            layout.minimumLineSpacing = 2
+            layout.sectionInset = UIEdgeInsets(top: 2, left: 0, bottom: 2, right: 0)
+        }
     }
 }
 

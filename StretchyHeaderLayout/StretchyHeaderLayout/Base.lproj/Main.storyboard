@@ -14,7 +14,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.78958991996970751" green="0.80425126903553301" blue="0.77781250421465631" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="AZK-YL-fVi">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="AZK-YL-fVi" customClass="StretchyHeaderLayout" customModule="StretchyHeaderLayout" customModuleProvider="target">
                             <size key="itemSize" width="369" height="62"/>
                             <size key="headerReferenceSize" width="50" height="180"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
