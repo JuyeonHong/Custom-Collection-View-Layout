@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let pictures = Picture.loadPictures()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
