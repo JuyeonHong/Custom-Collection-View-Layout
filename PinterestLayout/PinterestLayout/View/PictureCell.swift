@@ -16,7 +16,7 @@ class PictureCell: UICollectionViewCell {
     var picture: Picture? {
         didSet {
             if let pic = picture {
-                imageView.image = UIImage(named: pic.image)
+                imageView.image = pic.image
                 dateLabel.text = pic.date
                 descriptionLabel.text = pic.description
             }

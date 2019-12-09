@@ -10,28 +10,36 @@ import UIKit
 
 struct Picture {
     let date: String
-    let image: String
     let description: String
+    let image: UIImage
     
-    init(date: String, image: String, description: String) {
+    init(date: String, description: String, image: UIImage) {
         self.date = date
-        self.image = image
         self.description = description
+        self.image = image
     }
     
-    init(dictionary: NSDictionary) {
-        let date = dictionary["Date"] as? String
-        let image = dictionary["Image"] as? String
-        let description = dictionary["Description"] as? String
+    init?(dictionary: NSDictionary) {
+        guard
+            let date = dictionary["Date"] as? String,
+            let photo = dictionary["Image"] as? String,
+            let description = dictionary["Description"] as? String,
+            let image = UIImage(named: photo)
+        else { return nil }
         
-        self.init(date: date!, image: image!, description: description!)
+        self.init(date: date, description: description, image: image)
     }
     
     static func loadPictures() -> [Picture] {
         var pictures: [Picture] = []
-        if let path = Bundle.main.path(forResource: "Pictures", ofType: "plist"), let picArray = NSArray(contentsOfFile: path) {
-            for item in picArray {
-                let picture = Picture(dictionary: item as? NSDictionary ?? [:])
+        guard
+            let path = Bundle.main.path(forResource: "Pictures", ofType: "plist"),
+            let picArray = NSArray(contentsOfFile: path)
+        else {
+            return pictures
+        }
+        for item in picArray {
+            if let picture = Picture(dictionary: item as? NSDictionary ?? [:]) {
                 pictures.append(picture)
             }
         }

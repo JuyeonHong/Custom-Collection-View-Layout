@@ -13,7 +13,7 @@ protocol PinterestLayoutDelegate: class {
 }
 
 class PinterestLayout: UICollectionViewFlowLayout {
-    private var delegate: PinterestLayoutDelegate?
+    weak var delegate: PinterestLayoutDelegate?
     
     private let numberOfColumns = 2
     private let cellPadding: CGFloat = 6
