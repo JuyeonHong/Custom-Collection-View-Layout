@@ -15,6 +15,7 @@
 		573E71D4239DCBF400912FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573E71D2239DCBF400912FB9 /* LaunchScreen.storyboard */; };
 		573E71DD239DCC9600912FB9 /* Pictures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 573E71DC239DCC9600912FB9 /* Pictures.plist */; };
 		573E71E1239DCCEB00912FB9 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E71E0239DCCEB00912FB9 /* Picture.swift */; };
+		573E71E4239DCED400912FB9 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E71E3239DCED400912FB9 /* PictureCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		573E71D5239DCBF400912FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573E71DC239DCC9600912FB9 /* Pictures.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pictures.plist; sourceTree = "<group>"; };
 		573E71E0239DCCEB00912FB9 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		573E71E3239DCED400912FB9 /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				573E71C9239DCBF300912FB9 /* SceneDelegate.swift */,
 				573E71CB239DCBF300912FB9 /* ViewController.swift */,
 				573E71CD239DCBF300912FB9 /* Main.storyboard */,
+				573E71E2239DCEB600912FB9 /* View */,
 				573E71DB239DCC7800912FB9 /* Data */,
 				573E71D0239DCBF400912FB9 /* Assets.xcassets */,
 				573E71D2239DCBF400912FB9 /* LaunchScreen.storyboard */,
@@ -79,6 +82,14 @@
 				573E71E0239DCCEB00912FB9 /* Picture.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		573E71E2239DCEB600912FB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				573E71E3239DCED400912FB9 /* PictureCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 			files = (
 				573E71E1239DCCEB00912FB9 /* Picture.swift in Sources */,
 				573E71CC239DCBF300912FB9 /* ViewController.swift in Sources */,
+				573E71E4239DCED400912FB9 /* PictureCell.swift in Sources */,
 				573E71C8239DCBF300912FB9 /* AppDelegate.swift in Sources */,
 				573E71CA239DCBF300912FB9 /* SceneDelegate.swift in Sources */,
 			);
